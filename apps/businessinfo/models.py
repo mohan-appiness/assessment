@@ -21,3 +21,4 @@ class BusinessInfo(models.Model):
     class Meta:
         db_table = 'business_informations'
         verbose_name_plural = "Business Information"
+        app_label = 'businessinfo'
