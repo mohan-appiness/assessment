@@ -38,7 +38,7 @@
         var dataTable = $('#dataTable').DataTable();
 
         // Fetch data from your API using the fetch API
-        fetch('http://127.0.0.1:8000/api/business-info/list-all-business/')
+        fetch('https://assessment.appiness.cc/api/business-info/list-all-business/')
             .then(response => response.json())
             .then(data => {
                 // Loop through the data and add rows to the DataTable
